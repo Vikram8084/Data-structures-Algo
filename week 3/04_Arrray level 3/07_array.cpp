@@ -80,10 +80,10 @@ int main(){
     cout<<"Row wise sum of element: "<<endl;
 
     findSum(arr2,row,col);
-
     cout<<"column wise sum :"<<endl;
 
     findSumc(arr2,row,col);
+
     cout<<"sum of diagonal element:"<<endl;
     findSumd(arr2,row,col);
 
