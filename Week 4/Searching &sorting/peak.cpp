@@ -7,7 +7,7 @@ int findpeak(int arr[],int n){
     int mid=(start+end)/2;
     while(start<end){
         if(arr[mid]<arr[mid+1]){
-        
+        //peak right me exist karti hai
             start=mid+1;
     
        }
